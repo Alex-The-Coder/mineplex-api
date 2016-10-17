@@ -1,1 +1,1 @@
-exports.MineplexAPI = require('./lib/MineplexAPI');
+module.exports = require('./lib/MineplexAPI');

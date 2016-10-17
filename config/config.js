@@ -16,6 +16,18 @@ module.exports = {
         'player.friends': {
             url: 'player/',
             token: true
+        },
+        amplifierGroup: {
+            url: 'amplifierGroup',
+            token: true
+        },
+        amplifier: {
+            url: 'amplifier',
+            token: true
+        },
+        'amplifier.specific': {
+            url: 'amplifier/',
+            token: true
         }
     }
-}
+};
