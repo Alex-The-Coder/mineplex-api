@@ -1,9 +1,9 @@
 module.exports = {
-    base_url: 'http://api.mineplex.com:8081/',
+    base_url: 'http://api.mineplex.com/pc/',
     routes: {
         server: {
             url: 'server',
-            token: false
+            token: true
         },
         player: {
             url: 'player/',
