@@ -5,6 +5,8 @@ module.exports = {
             url: 'server',
             token: true
         },
+
+        //Player endpoints
         player: {
             url: 'player/',
             token: true
@@ -17,6 +19,8 @@ module.exports = {
             url: 'player/',
             token: true
         },
+
+        //Amplifier endpoints
         amplifierGroup: {
             url: 'amplifierGroup',
             token: true
@@ -27,6 +31,34 @@ module.exports = {
         },
         'amplifier.specific': {
             url: 'amplifier/',
+            token: true
+        },
+
+        //Fountain endpoints
+        fountain:{
+            url: 'fountain',
+            token: true
+        },
+
+        //Network endpoints
+        network:{
+            url: 'network',
+            token: true
+        },
+        'network.us':{
+            url: 'network/us',
+            token: true
+        },
+        'network.eu':{
+            url: 'network/eu',
+            token: true
+        },
+        'network.us.server':{
+            url: 'network/us/',
+            token: true
+        },
+        'network.eu.server':{
+            url: 'network/eu/',
             token: true
         }
     }

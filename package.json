@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Low level Mineplex API. You might be looking for mineplex-api-wrapper for a higher level API, unless you're making a higher level one with this.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "ArcticZeroo",
-  "license": "ISC",
   "dependencies": {
     "request": "^2.75.0"
-  }
+  },
+  "keywords": [
+    "mineplex",
+    "minecraft",
+    "api",
+    "mineplexapi",
+    "mineplex-api"
+  ]
 }
