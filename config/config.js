@@ -46,19 +46,19 @@ module.exports = {
             token: true
         },
         'network.us':{
-            url: 'network/us',
+            url: 'network/US',
             token: true
         },
         'network.eu':{
-            url: 'network/eu',
+            url: 'network/EU',
             token: true
         },
         'network.us.server':{
-            url: 'network/us/',
+            url: 'network/US/',
             token: true
         },
         'network.eu.server':{
-            url: 'network/eu/',
+            url: 'network/EU/',
             token: true
         }
     }
