@@ -1,6 +1,6 @@
 {
   "name": "mineplex-api",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Low level Mineplex API. You might be looking for mineplex-api-wrapper for a higher level API, unless you're making a higher level one with this.",
   "main": "index.js",
   "author": "ArcticZeroo",
