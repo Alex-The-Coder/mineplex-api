@@ -2,64 +2,51 @@ module.exports = {
     base_url: 'http://api.mineplex.com/pc/',
     routes: {
         server: {
-            url: 'server',
-            token: true
+            url: 'server'
         },
 
         //Player endpoints
         player: {
-            url: 'player/',
-            token: true
+            url: 'player/'
         },
         'player.status': {
-            url: 'player/',
-            token: true
+            url: 'player/'
         },
         'player.friends': {
-            url: 'player/',
-            token: true
+            url: 'player/'
         },
 
         //Amplifier endpoints
         amplifierGroup: {
-            url: 'amplifierGroup',
-            token: true
+            url: 'amplifierGroup'
         },
         amplifier: {
-            url: 'amplifier',
-            token: true
+            url: 'amplifier'
         },
         'amplifier.specific': {
-            url: 'amplifier/',
-            token: true
+            url: 'amplifier/'
         },
 
         //Fountain endpoints
         fountain:{
-            url: 'fountain',
-            token: true
+            url: 'fountain'
         },
 
         //Network endpoints
         network:{
-            url: 'network',
-            token: true
+            url: 'network'
         },
         'network.us':{
-            url: 'network/US',
-            token: true
+            url: 'network/US'
         },
         'network.eu':{
-            url: 'network/EU',
-            token: true
+            url: 'network/EU'
         },
         'network.us.server':{
-            url: 'network/US/',
-            token: true
+            url: 'network/US/'
         },
         'network.eu.server':{
-            url: 'network/EU/',
-            token: true
+            url: 'network/EU/'
         }
     }
 };
