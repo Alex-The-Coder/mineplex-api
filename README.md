@@ -1,7 +1,7 @@
 # mineplex-api
 Light and quick wrapper for the Mineplex API.
 
-```
+```javascript
 var config = require('./config');
 var MineplexAPI = require('mineplex-api');
 var api = new MineplexAPI(config.token);
